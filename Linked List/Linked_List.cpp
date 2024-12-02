@@ -2,6 +2,10 @@
 #include "Linked_List.h"
 using namespace std;
 
+// Node::Node(int value){
+//     data = value;
+// };
+
 Linked_list::Linked_list(){
     head = NULL;
 };
@@ -54,10 +58,9 @@ bool Linked_list::isfound(int item){
     Node* temp = head;
     while (temp != NULL)
     {
-        if (temp->data = item)
+        if (temp->data == item)
         {
             return true;
-            break;
         }
     }
     return false;
