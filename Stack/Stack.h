@@ -16,17 +16,19 @@ public:
 class Stack:public Node
 {
 private:
-    Node* head;
+    Node* top;
 public:
 
-    // bool isempty();
-    // void insertfirst(int newitem);
-    // void display();    
-    // int count();
-    // bool isfound(int item);
-    // void insertbefore(int itembefore, int newvalue);
-    // void append(int item);                              // append is to add item at last index of the list
-    // void Delete(int item);
+    // the first 4 functions is a copy from Linked list (Stack List)
+    bool isempty();
+    void display();
+    int count();
+    bool isfound(int item);
+
+    void push(int item);
+    void pop();
+    int peek();             // who's the top ?
+    bool isFull();
 
     Stack();        // Constructor
     ~Stack();       // Deconstructor
