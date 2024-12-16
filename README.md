@@ -117,12 +117,6 @@ A **binary search tree (BST)** is a hierarchical data structure in which each no
    ./output_file
    ```
 
-## Contributing
 
-Contributions are welcome! If you have suggestions for improvement or want to add more data structures, feel free to open a pull request.
-
-## License
-
-This repository is licensed under the MIT License. See the `LICENSE` file for more details.
 
 
